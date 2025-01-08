@@ -1,0 +1,173 @@
+.navbar {
+    background: linear-gradient(90deg, #1f4037, #99f2c8);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+  }
+  
+  .navbar-brand {
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .navbar-brand:hover {
+    color: #ffdd57;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s, background 0.3s;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffdd57;
+    border-radius: 5px;
+  }
+  
+  .navbar-nav .nav-link.active {
+    background: rgba(255, 255, 255, 0.4);
+    color: #1f4037;
+    border-radius: 5px;
+  }
+  
+  .nav-item.dropdown .dropdown-menu {
+    background-color: #1f4037;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-item {
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+  }
+  
+  .dropdown-item:hover {
+    background: #ffdd57;
+    color: #1f4037;
+  }
+  
+  .navbar-toggler {
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+  }
+  
+  .navbar-toggler-icon {
+    filter: invert(1);
+  }
+  
+  .form-control {
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+    padding: 0.5rem 1rem;
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+  }
+  
+  .form-control::placeholder {
+    color: #ffffff;
+    opacity: 0.7;
+  }
+  
+  .btn-outline-success {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background: transparent;
+    border-radius: 20px;
+  }
+  
+  .btn-outline-success:hover {
+    background: #ffdd57;
+    color: #1f4037;
+    border-color: #ffdd57;
+  }
+  .modern-button {
+    background: linear-gradient(90deg, #1f4037, #99f2c8); /* Barevný přechod */
+    color: white; /* Barva textu */
+    padding: 15px 30px; /* Vnitřní odsazení */
+    font-size: 16px; /* Velikost písma */
+    border: none; /* Bez okraje */
+    border-radius: 50px; /* Velmi zaoblené rohy */
+    cursor: pointer; /* Změna kurzoru na ruku */
+    text-decoration: none; /* Odstranění podtržení */
+    text-transform: uppercase; /* Velká písmena */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Jemný stín */
+    transition: all 0.3s ease; /* Plynulý efekt */
+}
+
+/* Efekt po najetí myší */
+.modern-button:hover {
+    background: linear-gradient(to right, #45a049, #3e8e41); /* Změna barvy přechodu */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Větší stín */
+    transform: translateY(-3px); /* Lehké nadzvednutí tlačítka */
+}
+
+
+
+
+
+/* Základní nastavení stránky */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Celková výška stránky */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Hlavní obsah stránky */
+main {
+  flex: 1; /* Zabere všechen dostupný prostor */
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #ffffff;
+}
+
+/* Sekce produktů */
+.products h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Karta produktu */
+.product-card {
+  display: inline-block;
+  width: 250px;
+  margin: 15px;
+  padding: 20px;
+  background: #f1f5f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 10px 15px;
+  color: #fff;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+/* Patička */
+footer {
+  background: linear-gradient(90deg, #1f4037, #99f2c8);
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
